@@ -1,0 +1,205 @@
+/*
+Theme Name: Falkenholz
+Author: siegl-netz
+Author URI: https://siegl-netz.de
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Falkenholz
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+
+@font-face {
+    font-family: BankGothicLite;
+    src: url(fonts/bgothl.ttf);
+}
+
+@font-face {
+    font-family: Phyllisswash;
+    src: url(fonts/phyllisswash.ttf);
+}
+
+html, body{
+    background-color: #fcfaf3;
+    color: #333333;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+@media(max-width: 992px){
+    .fhlogo{
+        max-width: 30%;
+        width:30%;
+        padding-bottom:1%;
+    }   
+
+}
+
+@media (min-width: 992px){
+    .fhlogo{
+        width:55%;
+        padding-top:5%;
+    }
+}
+
+@media(max-width: 768px){
+    .nav-pills > li{
+        float:none;
+    }
+}
+
+@media(max-width: 1530px){
+    .one_fifth{
+        padding-right:1%;
+    }
+}
+.no-gutter{
+    padding:0;
+    margin:0;
+}
+
+.headerbg{
+    height:280px;
+    background: url('img/bg_nav02.jpg') no-repeat #8C896A;
+}
+
+.padding-right2px{
+    padding-right:2px;
+}
+
+.padding-left2px{
+    padding-left:2px;
+}
+
+
+.nopadding{
+    padding:0;
+}
+
+.backgroundheadercolor{
+    background-color:#c7bfac;
+}
+
+#navbar-collapse-1{
+    border:none;
+}
+.headermenue{
+    border:none;
+
+}
+
+.headermenue li a{
+    color:#000;
+    font-size:1.4em;
+}
+
+.headermenue li a:hover{
+    background-color: #ddd;
+}
+
+.headermenue li.current_page_item a{
+    background-color: #ddd;
+    color:#000;
+}
+
+.headermenue li.current_page_item a:hover{
+    background-color: #ddd;
+    color:#000;
+}
+
+.headermenue > ul.dropdown-menu{
+    z-index: 10001
+}
+
+.site-content{
+    padding-left:15px;
+    padding-right:15px;
+    font-size:1.2em;
+}
+
+.headermenue > li > ul > li{
+    z-index: 1;
+}
+
+.handwritten{
+    font-family: 'Great Vibes', cursive;
+}
+
+.footernav{
+    margin:0 -15px;
+    background-color:#c7bfac;
+    font-size: 1.2em;
+}
+
+.footernav ul{
+    list-style: none;
+}
+
+.footernav ul li a{
+    color:#000;
+    font-size:1em;
+    float:right;
+    margin-right:1%;
+}
+
+.footernav ul li a:after{
+    clear:both;
+}
+
+code{
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    background:none;
+    color: #333333;    
+}
+#micro-news{
+    border-top: #8C896A 2px solid !important;
+    border-bottom: #8C896A 2px solid !important;
+}
+
+#micro-news .wrapNews{
+    border:none !important;
+    min-height:10px !important;
+    margin-top:15px !important;
+
+}
+
+#micro-news .wrapNews:last-of-type
+{
+    margin-bottom:15px;
+    border-bottom:none !important;
+}
+
+#micro-news .wrapNews .title{
+    font-family: Verdana,Arial,Helvetica,sans-serif !important;
+    background:none !important;
+    color: #333333 !important;  
+    font-weight:bold;
+}
+.postedOn{
+    border:none !important;
+}
+
+.imgmap-frontend-image img, .imgmap-frontend-image canvas{
+    max-width:none !important;
+    width:auto !important;
+}
+
+.altlinks-container{
+    display: none;   
+}
+
+.navbar{
+    border:none;
+    border-radius: 0;
+}
+
+.bankGothicLT{
+    font-family: BankGothicLite;
+}
+
+.phyllisswash{
+    font-family: Phyllisswash;
+}
